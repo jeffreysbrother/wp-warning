@@ -17,10 +17,20 @@
 						<h2><span>Let's get started!</span></h2>
 
 						<div class="inside">
-							<p><?php esc_attr_e(
-									'WordPress started in 2003 with a single bit of code to enhance the typography of everyday writing and with fewer users than you can count on your fingers and toes. Since then it has grown to be the largest self-hosted blogging tool in the world, used on millions of sites and seen by tens of millions of people every day.',
-									'wp_admin_style'
-								); ?></p>
+							<p>
+
+                <table class="form-table">
+                	<tr>
+                		<td>
+                		  <label for="live_url">Live URL</label>
+                		</td>
+                		<td>
+                		  <input name="live_url" id="live_url" type="text" value="" class="regular-text" />
+                		</td>
+                	</tr>
+                </table>
+
+							</p>
 						</div>
 						<!-- .inside -->
 
