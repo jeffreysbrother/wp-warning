@@ -19,16 +19,27 @@
 						<div class="inside">
 							<p>
 
-                <table class="form-table">
-                	<tr>
-                		<td>
-                		  <label for="live_url">Please enter the URL of your DEV site:</label>
-                		</td>
-                		<td>
-                		  <input name="live_url" id="live_url" type="text" value="" class="regular-text" />
-                		</td>
-                	</tr>
-                </table>
+
+                <!-- form begin -->
+                <form action="" method="post">
+                  <table class="form-table">
+                  	<tr>
+                  		<td>
+                  		  <label for="dev_url">Please enter the URL of your DEV site:</label>
+                  		</td>
+                  		<td>
+                  		  <input name="dev_url" id="dev_url" type="text" value="" class="regular-text" />
+                  		</td>
+                  	</tr>
+                  </table>
+
+                  <p>
+                    <input class="button-primary" type="submit" name="dev_url" value="Save" />
+                  </p>
+
+                </form>
+                <!-- form end -->
+
 
 							</p>
 						</div>
