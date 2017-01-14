@@ -32,5 +32,6 @@ function wp_warning_options_page() {
   if ( !current_user_can( 'manage_options' ) ) {
     wp_die( "Sorry, bro. You can't do that." );
   }
-  echo '<p>Welcome to the plugin page!</p>';
+
+  require( 'inc/options-page-wrapper.php' );
 }
