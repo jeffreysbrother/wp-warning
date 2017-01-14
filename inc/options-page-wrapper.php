@@ -22,7 +22,7 @@
                 <table class="form-table">
                 	<tr>
                 		<td>
-                		  <label for="live_url">Live URL</label>
+                		  <label for="live_url">Please enter the URL of your DEV site:</label>
                 		</td>
                 		<td>
                 		  <input name="live_url" id="live_url" type="text" value="" class="regular-text" />
