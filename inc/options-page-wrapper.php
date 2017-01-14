@@ -62,11 +62,11 @@
 					<div class="postbox">
 
 						<h2><span><?php esc_attr_e(
-									'Sidebar Content Header', 'wp_admin_style'
+									'Important!! Please Read...', 'wp_admin_style'
 								); ?></span></h2>
 
 						<div class="inside">
-							<p>Stuff goes here too...</p>
+							<p>This plugin is intended to be installed on the LIVE instance of your website.</p>
 						</div>
 						<!-- .inside -->
 
